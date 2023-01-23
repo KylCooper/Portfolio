@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inconsolata";
+    text-decoration: none;
+    color: white;
+
+}
+
+body{
+    background-color: #1B1A17;
+}
+
+@font-face {
+    font-family: "Julius";
+    src: url(./font/Julius/JuliusSansOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url(./font/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+/* ------------- Nav ------------- */
+
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: "Julius";
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-left: 2%;
+}
+.blue{
+    color: #0F70B7;
+    font-family: "Julius";
+    
+}
+.nav-link-container{
+    width: 45%; 
+    margin-right: 4%;
+}
+menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #0F70B7;
+}
+
+label{
+    display: none;
+}
+#toggle{
+    display: none;
+}
+
+
+/* ------------- Homepage ------------- */
+
+.section-homepage{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-homepage-bloc{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-text{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.name{
+    font-size: 70px;
+    font-weight: 900;
+    color: #0F70B7;
+}
+.job{
+    font-size: 45px;
+    font-weight: 700;
+}
+.subtext{
+    font-size: 20px;
+}
+.right-homepage-bloc{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.code-style{
+    width: 70%;
+    height: 100%;
+    color: #0F70B7;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+
+/* ------------- Presentation ------------- */
+
+.presentation{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.presentation-bloc{
+    width: 58%;
+}
+.presentation-text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+/* ------------- Skills ------------- */
+
+.skills{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.skills-container{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills-title{
+    font-size: 32px;
+    color: #0F70B7;
+    font-weight: 700;
+}
+
+.card-container{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skills-card{
+    background: #21201D;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+@keyframes changeColor-html {
+    0% {
+        color: white;
+    }
+    20% {
+        color: #FC490B;
+    }
+    40% {
+        color: #FC490B;
+    }
+    60% {
+        color: #FC490B;
+    }
+    80% {
+        color: white;
+    }
+    100% {
+        color: white;
+    }
+  }
+  @keyframes changeColor-css {
+    0% {
+        color: white;
+    }
+    20% {
+        color: white;
+    }
+    40% {
+        color: #2196F4;
+    }
+    60% {
+        color: #2196F4;
+    }
+    80% {
+        color: #2196F4;
+    }
+    100% {
+        color: white;
+    }
+  }
+  @keyframes changeColor-js {
+    0% {
+        color: white;
+    }
+    20% {
+        color: white;
+    }
+    40% {
+        color: white;
+    }
+    60% {
+        color: #FFDF00;
+    }
+    80% {
+        color: #FFDF00;
+    }
+    100% {
+        color: white;
+    }
+  }
+  @keyframes changeColor-figma {
+
+    0% {
+        color: #0ACF83;
+    }
+    20% {
+        color: #F24E1E;
+    }
+    40% {
+        color: #FF7262;
+    }
+    60% {
+        color: #A259FF;
+    }
+    80% {
+        color: #1ABCFE;
+    }
+    100% {
+        color: #0ACF83;
+    }
+  }
+
+  .icon-color-html{
+    font-size: 150px;
+    animation: changeColor-html 6s linear infinite;
+  }
+  .icon-color-css{
+    font-size: 150px;
+    animation: changeColor-css 6s linear infinite;
+  }
+  .icon-color-js{
+    font-size: 150px;
+    animation: changeColor-js 6s linear infinite;
+  }
+  .icon-color-figma{
+    font-size: 150px;
+    animation: changeColor-figma 6s linear infinite;
+  }
+
+  /* ------------- Portfolio ------------- */
+
+  .mon-Portfolio{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+  }
+  .portfolio-title{
+    font-size: 32px;
+    color: #0F70B7;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .portfolio-container{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .portfolio-link{
+    width: 30%;
+    height: 380px;
+    position: relative;
+    margin: 20px 10px;
+  }
+  
+  .portfolio-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* ----------- Overlay ----------- */
+  .img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.25s;
+  }
+  .img-overlay > * {
+    transform:translateY(20px);
+    transition: transform 0.25s;
+  }
+  .img-overlay:hover{
+    opacity: 0;
+  }
+  .img-overlay:hover > * {
+    transform:translateY(0);
+  }
+  .overlay-title{
+    font-size: 2.25em;
+  }
+  .overlay-subtext{
+    font-size: 1.25em;
+    margin-top: 1em;
+  }
+  .overlay-subtext-2{
+    font-size: 1.25em;
+    margin-top: 1em;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+  }
+    /* -------------------- */
+
+footer {
+    width: 100%;
+    padding: 150px 0px;
+    /* display: flex;
+    justify-content: center; */
+}
+.footer-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.logo-footer{
+    font-family: "Julius";
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.contact-footer{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-title{
+    font-size: 1.5rem;  
+}
+.fa-envelope-open{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.mail{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .portfolio-link{
+        width: 30%;
+        height: 350px;
+        position: relative;
+        margin: 20px 10px;
+      }
+}
+@media screen and (max-width: 1200px) {
+    .menu-responsive{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    label 
+    {
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .menu-responsive{
+        align-items: center;
+    }
+
+    #toggle:checked + menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 250px;
+        width: 160px;
+        position: absolute;
+        margin-top: 70px;
+    }
+
+    menu {
+        display: none;
+    }
+    .section-homepage{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .left-homepage-bloc{
+        width: 50%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-text{
+        width: 100%;
+        height: 80%;
+        align-items: center;
+    }
+    .right-homepage-bloc{
+        width: 80%;
+        height: 65vh;
+        display: flex;
+        justify-content: center;
+    }
+    .skills{
+        height: 100vh;
+    }
+    .card-container{
+        width: 80%;
+    }
+    .skills-card{
+        margin: 20px 50px;
+    }
+    .portfolio-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .portfolio-link{
+        width: 60%;
+        height: 380px;
+        margin: 30px 0px;
+      }
+}
+@media screen and (max-width: 910px) {
+    .section-homepage{
+        height: 200vh;
+    }
+    .left-homepage-bloc{
+        width: 100%;
+        height: 30%;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .left-text{
+        width: 80%;
+        margin-top: 130px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .right-homepage-bloc{
+        width: 100%;
+        height: 45%;
+        margin-top: 20px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .code-style{
+        width: 90%;
+        margin-top: 50px;
+        font-size: 18px;
+        line-height: 25px;
+        margin-left: 30px;
+    }
+    .presentation{
+        height: 50vh;
+    }
+    .presentation-bloc{
+        width: 90%;
+    }
+    .skills{
+        height: 180vh;
+        flex-direction: column;
+    }
+    .skills-card{
+        margin: 20px 60px;
+    }
+    footer {
+        width: 100%;
+        height: 30vh;
+        padding: 10px 0px;
+
+    }
+    .footer-container{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .section-homepage{
+        height: 260vh;
+    }
+    .left-homepage-bloc{
+        height: 30%;
+    }
+    .logo{
+        font-size: 26px;
+        margin-left: 2%;
+    }
+    .nav-link-container{
+        width: 38%; 
+        margin-right: 0%;
+    }
+    .portfolio-link{
+        width: 80%;
+        height: 380px;
+        margin: 30px 0px;
+      }
+      .code-style{
+        margin: 10px;
+        font-size: 1.1em;
+        word-wrap: break-word;
+    } 
+    .skills{
+        height: 200vh;
+        flex-direction: column;
+    }
+    .fa-envelope-open{
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+    .mail{
+        font-size: 1rem;
+    }
+}
+
+
+

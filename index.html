@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3b3dd4a9c4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+      <nav>
+        <a href="#" class="logo">
+            <span class="blue">< </span>Wol<span class="blue">ves /></span> 
+        </a>
+        <div class="nav-link-container menu-responsive">
+          <label for="toggle">☰</label>
+          <input type="checkbox" id="toggle">
+          <menu>
+            <a href="#presentation" class="nav-link">Présentation</a>
+            <a href="#skills" class="nav-link">Expertise</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </menu>
+        </div>
+      </nav>
+
+      <section class="section-homepage">
+        <div class="left-homepage-bloc">
+          <div class="left-text">
+            <h1 class="name">ROBERT KILIAN</h1>
+            <p class="job">Développeur web</p>
+            <p class="subtext">Passionné par les technologies web, <br>
+              je suis un développeur web déterminé <br>
+              à créer des site web et applications</p>
+          </div>
+        </div>
+
+        <div class="right-homepage-bloc">
+          <p class="code-style text-to-animate" id="text">
+            console.log("Hello Wolrd");<br>
+            <br>
+            const&nbspnom&nbsp=&nbspdocument.getElementById("Robert");<br>
+            const&nbspprénom&nbsp=&nbspdocument.getElementById("Kilian");<br>
+            <br>
+            let&nbspage&nbsp=&nbspdocument.querySelector('age');<br>
+            let&nbspville&nbsp=&nbspdocument.querySelector('Saint-André');<br>
+            const&nbspmail&nbsp=&nbsp"robertkilian97440@gmail.com";<br>
+            <br>
+            function&nbsphobby() {<br>
+               let&nbspjeuxVideo&nbsp=&nbsp["The-Wicther","Nier-Replicant","Yakuza"]<br>
+               let&nbspseries&nbsp=&nbsp['The-Witcher','Peaky-Blinder','Vikings',<br>
+               'The-Office']}<br>
+            <br>
+            <br>
+           let&nbspPlayTime&nbsp=&nbspdocument.getElementById('PlayTime');<br>
+           PlayTime.addEventListener("click",&nbsp()&nbsp=>&nbsp{<br>
+               if&nbsp(WorkTime&nbsp==&nbspFalse)&nbsp{<br>
+                   console.log("Yes");<br>
+                   let&nbsphobbyTime&nbsp=&nbspdocument.querySelector('.Lets-Go')<br>
+                   hobbyTime&nbsp=&nbsphobby()<br>
+               }else{<br>
+                   console.log("Oh no");<br>
+               }<br>
+               <br>
+              })
+
+            </p>
+        </div>
+      </section>
+
+      <section class="presentation" id="presentation">
+
+        <div class="presentation-bloc">
+          <p class="presentation-text">
+            Il y a quelques années, je me suis intéressé au développement de sites web et d'interfaces. 
+            Depuis, j'ai régulièrement amélioré mes compétences. 
+            Aujourd'hui, je développe des sites web sur commande ou pour moi-même.
+          </p>
+        </div>
+
+      </section>
+
+      <section class="skills" id="skills">
+
+        <div class="skills-container">
+
+          <h2 class="skills-title">Expertise</h2>
+
+          <div class="card-container">
+
+            <div class="skills-card">
+              <i class="fa-brands fa-html5 icon-color-html"></i>
+              <h3 class="logo-title">HTML5</h3>
+            </div>
+  
+            <div class="skills-card">
+              <i class="fa-brands fa-css3-alt icon-color-css"></i>
+              <h3 class="logo-title">CSS3</h3>
+            </div>
+  
+            <div class="skills-card">
+              <i class="fa-brands fa-js icon-color-js"></i>
+              <h3 class="logo-title">JavaScript</h3>
+            </div>
+
+            <div class="skills-card">
+              <i class="fa-brands fa-figma icon-color-figma"></i>
+              <h3 class="logo-title">Figma</h3>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="mon-Portfolio" id="portfolio">
+
+        <h2 class="portfolio-title">Mon Portfolio</h2>
+
+        <div class="portfolio-container">
+
+          <a href="https://kylcooper.github.io/KilianRobert_2_12-07-2021/" class="portfolio-link">
+            <img src="./image/Rerservia.png" alt="Image-du-projet-Reservia" class="portfolio-img">
+            <div class="img-overlay">
+                <h3 class="overlay-title">Reservia</h3>
+                <p class="overlay-subtext">Rerservia un site vitrine d'hôtellerie </p>
+                <p class="overlay-subtext-2">Projet OpenClassroom </p>
+            </div>
+          </a>
+
+          <a href="https://kylcooper.github.io/KilianRobert_3_16-09-2021/" class="portfolio-link">
+            <img src="./image/OhMyFood.png" alt="Image-du-projet-OhMyFood" class="portfolio-img">
+            <div class="img-overlay">
+              <h3 class="overlay-title">OhMyFood</h3>
+              <p class="overlay-subtext">OhMyFood site vitrine de restauration </p>
+              <p class="overlay-subtext-2">Projet OpenClassroom </p>
+          </div>
+          </a>
+
+          <a href="https://kylcooper.github.io/KilianRobert_4_04-12-2021/" class="portfolio-link">
+            <img src="./image/La-Chouette-Agence-image.png" alt="Image-du-projet-La-Chouette-agences" class="portfolio-img">
+            <div class="img-overlay">
+              <h3 class="overlay-title">La Chouette Agence</h3>
+              <p class="overlay-subtext">La Chouette Agence site vitrine</p>
+              <p class="overlay-subtext-2">Projet OpenClassroom </p>
+          </div>
+          </a>
+
+          <a href="https://kylcooper.github.io/Mon-Vieux-Grimoire/" class="portfolio-link">
+            <img src="./image/Mon-Vieux-Grimoire.png" alt="Image-du-projet-Mon-Vieux-Grimoire" class="portfolio-img">
+            <div class="img-overlay">
+              <h3 class="overlay-title">Mon Vieux Grimoire</h3>
+              <p class="overlay-subtext">Site de notation de livre </p>
+              <p class="overlay-subtext-2">Projet IFR </p>
+          </div>
+          </a>
+
+          <a href="https://kylcooper.github.io/La-maison-du-caf-/" class="portfolio-link">
+            <img src="./image/La-Maison-Café.png" alt="Image-du-projet-La-Maison-Du-Café" class="portfolio-img">
+            <div class="img-overlay">
+              <h3 class="overlay-title">Reservia</h3>
+              <p class="overlay-subtext">Présentation d'un site One-page </p>
+              <p class="overlay-subtext-2">Projet IFR </p>
+          </div>
+          </a>
+
+          <a href="http://www.ma-piscine.re" class="portfolio-link">
+            <img src="./image/Ma-piscine.re.png" alt="Image-du-projet-personel-Ma-piscine.re" class="portfolio-img">
+            <div class="img-overlay">
+              <h3 class="overlay-title">Ma-piscine.re</h3>
+              <p class="overlay-subtext">Site de création de piscine </p>
+              <p class="overlay-subtext-2">Projet Personel </p>
+          </div>
+          </a>
+
+        </div>
+
+      </section>
+
+      <footer>
+  
+        <div class="footer-container" id="contact">
+
+          <div class="footer-logo-text">
+            <h4 class="logo-footer"><span class="blue">< </span>Wol<span class="blue">ves /></span> </h4>
+          </div>
+
+          <div class="contact-footer">
+            <h4 class="contact-title">Contacts</h4>
+            <div class="contact-link">
+              <a class="mail" href="mailto:robertkilian97440@gmail.com">
+                <i class="fa-regular fa-envelope-open"></i>
+                RobertKilian97440@gmail.com
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </footer>
+
+      <!-- <script src="./script.js"></script> -->
+
+</body>
+</html>
