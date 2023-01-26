@@ -439,7 +439,7 @@ footer {
     }
     .section-homepage{
         width: 100%;
-        height: 150vh;
+        height: 180vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -447,7 +447,7 @@ footer {
     }
     .left-homepage-bloc{
         width: 50%;
-        height: 50vh;
+        height: 30%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -458,13 +458,13 @@ footer {
         align-items: center;
     }
     .right-homepage-bloc{
-        width: 80%;
-        height: 65vh;
+        width: 90%;
+        height: 50%;
         display: flex;
         justify-content: center;
     }
     .skills{
-        height: 100vh;
+        height: 110vh;
     }
     .card-container{
         width: 80%;
@@ -488,7 +488,7 @@ footer {
     }
     .left-homepage-bloc{
         width: 100%;
-        height: 30%;
+        height: 35%;
         align-items: flex-start;
         justify-content: flex-start;
     }
@@ -503,7 +503,7 @@ footer {
     }
     .right-homepage-bloc{
         width: 100%;
-        height: 45%;
+        height: 50%;
         margin-top: 20px;
         justify-content: flex-start;
         align-items: center;
@@ -514,15 +514,16 @@ footer {
         font-size: 18px;
         line-height: 25px;
         margin-left: 30px;
+        word-wrap: break-word;
     }
     .presentation{
-        height: 50vh;
+        height: 70vh;
     }
     .presentation-bloc{
         width: 90%;
     }
     .skills{
-        height: 180vh;
+        height: 200vh;
         flex-direction: column;
     }
     .skills-card{
@@ -530,7 +531,7 @@ footer {
     }
     footer {
         width: 100%;
-        height: 30vh;
+        height: 40vh;
         padding: 10px 0px;
 
     }
@@ -547,7 +548,7 @@ footer {
 
 @media screen and (max-width: 580px) {
     .section-homepage{
-        height: 260vh;
+        height: 200vh;
     }
     .left-homepage-bloc{
         height: 30%;
